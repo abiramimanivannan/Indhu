@@ -26,10 +26,6 @@ public boolean iso()
 				}
 			}
 	}
-	for(int i=0;i<str2.length();i++)
-	{
-		for(int j=i+1;j<str2.length();j++)
-		{
 			if(str2.charAt(pos[0])==str2.charAt(pos[1]))
 			{
 				return true;
@@ -38,8 +34,6 @@ public boolean iso()
 			{
 				return false;
 			}
-		}
-	}
    }
    else
    {
